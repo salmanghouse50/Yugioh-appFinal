@@ -1,0 +1,165 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+
+.cardBG{
+  z-index:9;
+width:2.25in;
+height:3.25in;
+}
+
+
+.Select{
+color:black;
+width:20%;
+
+}
+#poster{
+
+  z-index: 99;
+}
+
+#description{
+  z-index: 99;
+}
+
+#attack{
+  z-index:99;
+}
+
+#defense{
+  z-index:99;
+}
+
+.stars{
+
+height:14px;
+width:14px;
+display:inline;
+float:right;
+position:relative;
+right:41%;
+bottom:290px;
+padding-right:2.5px;
+z-index:999;
+padding-left:2.5px;
+}
+
+@font-face {
+  font-family: 'YugiohTitle';
+  src: url(./Fonts/Stone-Serif-Semibold.ttf) format('truetype');
+  font-style: normal;
+  font-weight: 100;
+}
+#Title{
+font-family: 'YugiohTitle';
+color:black;
+position: relative;
+font-size:16px;
+bottom:300px;
+z-index:9999;
+text-align: left;
+text-transform: uppercase;
+margin:0 auto;
+display:block;
+width:1.9in;
+}
+
+
+#attack{
+  font-family: 'YugiohTitle';
+  color:black;
+  position: absolute;
+  font-size:10px;
+top:565px;
+padding-left:23px;
+  z-index:99999;
+  
+  float: left;
+  text-align: right;
+  text-transform: uppercase;
+  margin:0 auto;
+  display:inline;
+
+}
+
+#defense{
+  font-family: 'YugiohTitle';
+  color:black;
+  position: absolute;
+  font-size:10px;
+  display: inline;
+  top:565px;
+padding-left:67px;
+  float:left;
+
+  z-index:99999;
+ 
+  
+  text-align: right;
+  text-transform: uppercase;
+  margin:0 auto;
+  
+
+ 
+
+}
+
+#imageId{
+position: absolute;
+bottom:70px;
+top:50%;
+right:0;
+left:0;
+display: block;
+height:160px;
+z-index:9999999;
+bottom:425px;
+opacity: 1;
+}
+
+#imageBtnDiv{
+  position: relative;
+  bottom:70px;
+  margin:0 auto;
+  display: block;
+  color:White;
+  z-index:999999999999999999999;
+
+}
